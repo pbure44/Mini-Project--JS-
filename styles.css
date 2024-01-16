@@ -1,0 +1,140 @@
+.index-btn {
+  width: 100px;
+  height: 30px;
+  background-color: aqua;
+  margin-top: 8px;
+  border-radius: 8px;
+}
+
+.index-div {
+  width: 300px;
+  align-items: normal;
+  margin: 16px 0 0 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+p:nth-child(n) {
+  font-style: italic;
+  margin: 0;
+}
+h4{
+  font-weight: bold;
+  margin: 10px 0 10px 0;
+}
+
+#posts-btn {
+  width: 90%;
+  height: 30px;
+  margin: 12px 0 16px 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+#p-postDet {
+
+  margin-top: 10px;
+  font-weight: bold;
+
+}
+
+#post-details {
+  width: 50%;
+  margin-left: 16px;
+  padding: 16px;
+  background-color: #bad9ba;
+  border-radius: 16px;
+}
+
+#p-userDet {
+  margin-top: 8px;
+  font-weight: bold;
+}
+
+main {
+  width: 50%;
+  height: 90%;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 10px 26px 10px;
+  margin-left: 16px;
+  background-color: rgba(100, 149, 237, 0.7);
+  flex-wrap: wrap;
+  border-radius: 16px;
+}
+
+#index-div {
+  height: 100px;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #bad9ba;
+  margin-top: 16px;
+  padding: 8px;
+  border: black double;
+  border-radius: 16px;
+
+}
+h2{
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  margin-left: 16px;
+}
+.user-details-div{
+  width: 50%;
+  margin-left: 16px;
+  padding: 16px;
+  background-color: #bad9ba;
+  border-radius: 16px;
+}
+#post-title-div{
+  width: 16%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #bad9ba;
+  margin: 4px 0 4px 4px;
+  padding: 8px;
+  border-radius: 8px;
+}
+section {
+  width: 88.2%;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  margin-left: 16px;
+  background-color: rgba(100, 149, 237, 0.7);
+  flex-wrap: wrap;
+  border-radius: 16px;
+}
+#post-details-btn{
+  margin-top: 10px;
+}
+article{
+  width: 90%;
+  padding: 10px;
+  margin-left: 16px;
+  display: flex;
+  justify-content: normal;
+  flex-wrap: wrap;
+}
+summary{
+  font-weight: bold;
+  font-size: 18px;
+  margin: 12px 0 0 16px;
+}
+#comment {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  background-color: aquamarine;
+  margin: 10px;
+  padding: 8px;
+  border-radius: 8px;
+}
